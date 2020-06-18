@@ -10,5 +10,5 @@ func main() {
 		fmt.Fprintf(w, "%s", greeting(r.URL.Path[1:]))
 	})
 
-	http.ListenAndServe(":8000", nil)
+	http.ListenAndServe(":8123", nil)
 }
