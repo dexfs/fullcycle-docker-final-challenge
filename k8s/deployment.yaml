@@ -15,4 +15,4 @@ spec:
       - name: app-go
         image: img-app-deployment
         ports:
-        - containerPort: 8000
+        - containerPort: 8123
